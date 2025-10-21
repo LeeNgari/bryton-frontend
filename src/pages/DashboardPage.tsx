@@ -29,7 +29,6 @@ export const DashboardPage: React.FC = () => {
                 : 'text-gray-600 hover:text-soft-black'
             }`}
           >
-            <DollarSign className="w-5 h-5" />
             <span>Subscriptions</span>
           </button>
         </div>

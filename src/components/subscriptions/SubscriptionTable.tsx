@@ -115,7 +115,7 @@ export const SubscriptionTable: React.FC<SubscriptionTableProps> = ({
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 mb-1">Amount</p>
-                  <p className="text-sm text-gray-900">${parseFloat(subscription.TotalAmount).toFixed(2)}</p>
+                  <p className="text-sm text-gray-900">Ksh. {subscription.TotalAmount}</p>
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 mb-1">Semester</p>
